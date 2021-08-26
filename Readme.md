@@ -7,3 +7,4 @@ josé antonio briones escareño
 1. hola mundo
 2. area circulo
 3. area triangula
+4. paga trabajador
