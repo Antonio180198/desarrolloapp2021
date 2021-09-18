@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "p17-repasoo/1.0.0": {
+        "runtime": {
+          "p17-repasoo.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "p17-repasoo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
