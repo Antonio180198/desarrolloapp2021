@@ -1,0 +1,15 @@
+{"nombre":"Universidad de Durango","encargado":"Ruben Ibarra Reyes","domicilio":"Jardin Juarez 147",
+    "nodos":[{"nombrea":"Sotelo","Fecha":"04/14/2015","materia":"Matematicas","grupo":"5A","salario":10000,"so":"linux",
+                "vulnerabilidades":[{"nombreb":"Gabriela","edad":22,"fecha":"2015-04-14T00:00:00","Antiguedad":6},
+                                    {"nombreb":"Andrea","edad":23,"fecha":"2011-01-10T00:00:00","Antiguedad":10}]},
+   
+                {"nombrea":"chavez","Fecha":"04/14/2015","materia":"Español","grupo":"2B","salario":12000,"so":"ios",
+                "vulnerabilidades":[{"nombreb":"Paola","edad":24,"fecha":"2017-02-21T00:00:00","Antiguedad":4}]},
+             
+                {"nombrea":"Lopez","Fecha":"04/14/2015","materia":"computación","grupo":"3C","salario":11000,"so":"windows",
+                "vulnerabilidades":[{"nombreb":"Stephani","edad":21,"tipo":"local","fecha":"2009-11-13T00:00:00","Antiguedad":12},
+                                    {"nombreb":"Aurelio","edad":20,"fecha":"2016-12-20T00:00:00","Antiguedad":5},
+                                    {"nombreb":"Hector","edad":22,"fecha":"2017-02-15T00:00:00","Antiguedad":4}]},
+            
+                    {"nombrea":"Briones","Fecha":"04/14/2015","materia":"Matematicas","grupo":"5B","salario":18000,"so":"linux",
+                "vulnerabilidades":[{"nombreb":"Antonio","edad":23,"fecha":"2017-02-15T00:00:00","Antiguedad":4}]}],"Mayor":22,"Menor":5,"TotVuln":6}

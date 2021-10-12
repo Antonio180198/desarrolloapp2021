@@ -1,0 +1,42 @@
+﻿@page "/Employees"
+@using p20_blazorcrud__no_https.Data
+@inject EmployeeService employeeService
+
+<h3>Employees Info</h3>
+
+<NavLink class="nav-link" href="AddEmployees">
+    <scan class="oi oi-plus">Add New</scan>
+</NavLink>
+
+@if(EmpObj is null){
+    <p><em>Loading ...</em></p>
+}
+else{
+<table class="table">
+    <thead>
+        <th>Emp Id</th>
+        <th>Employe name</th>
+        <th>Gender</th>
+        <th>Designation</th>
+        <th>City</th>
+    </thead>
+    <tbody>
+        @foreach(var emp in EmpObj){
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.EmployeeName</td>
+                <td>@emp.Gender</td>
+                <td>@emp.Designation</td>
+                <td>@emp.City</td>
+            </tr>
+        }
+    </tbody>
+</table>
+}
+
+@code {
+    List<Employee>EmpObj;
+    protected override void OnInitialized(){
+        EmpObj=employeeService.GetAllEmployee();
+    }
+}
