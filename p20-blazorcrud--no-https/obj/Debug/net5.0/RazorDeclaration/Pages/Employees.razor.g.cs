@@ -98,7 +98,7 @@ using p20_blazorcrud__no_https.Data;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 37 "C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\Pages\Employees.razor"
+#line 46 "C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\Pages\Employees.razor"
        
     List<Employee>EmpObj;
     protected override void OnInitialized(){

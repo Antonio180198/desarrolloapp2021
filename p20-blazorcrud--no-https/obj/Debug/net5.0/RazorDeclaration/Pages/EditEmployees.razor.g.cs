@@ -82,6 +82,14 @@ using p20_blazorcrud__no_https.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\Pages\EditEmployees.razor"
+using p20_blazorcrud__no_https.Data;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/EditEmployees")]
     public partial class EditEmployees : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -89,6 +97,33 @@ using p20_blazorcrud__no_https.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 46 "C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\Pages\EditEmployees.razor"
+       
+
+    [Parameter]
+    public string Id {get; set;}
+
+    Employee obj=new Employee();
+
+    protected override void OnInitialized(){
+        obj=employeeService.GetEmployee(int.Parse(Id));
+    }
+
+    protected void UpdateEmployee(){
+        employeeService.UpdateEmployee(obj);
+        NavigationManager.NavigateTo("Employees");
+
+    }
+    protected void Cancel(){
+        NavigationManager.NavigateTo("Employees");
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager NavigationManager { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private EmployeeService employeeService { get; set; }
     }
 }
 #pragma warning restore 1591

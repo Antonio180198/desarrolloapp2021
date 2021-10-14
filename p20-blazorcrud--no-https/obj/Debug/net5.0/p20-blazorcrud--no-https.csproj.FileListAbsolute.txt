@@ -86,3 +86,7 @@ C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-
 C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\obj\Debug\net5.0\RazorDeclaration\Pages\DeleteEmployees.razor.g.cs
 C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\obj\Debug\net5.0\RazorDeclaration\Pages\EditEmployees.razor.g.cs
 C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\obj\Debug\net5.0\RazorDeclaration\Pages\Employees.razor.g.cs
+C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\obj\Debug\net5.0\Razor\Pages\AddEmployees.razor.g.cs
+C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\obj\Debug\net5.0\Razor\Pages\DeleteEmployees.razor.g.cs
+C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\obj\Debug\net5.0\Razor\Pages\EditEmployees.razor.g.cs
+C:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p20-blazorcrud--no-https\obj\Debug\net5.0\Razor\Pages\Employees.razor.g.cs

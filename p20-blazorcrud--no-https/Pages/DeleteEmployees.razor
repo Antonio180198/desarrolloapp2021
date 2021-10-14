@@ -1,5 +1,85 @@
-﻿<h3>DeleteEmployees</h3>
+﻿@page "/DeleteEmployees"
+@using p20_blazorcrud__no_https.Data
+@inject EmployeeService employeeService
+@inject NavigationManager NavigationManager
+
+<h3>Delete Employee</h3>
+<hr>
+<h3>Are you sure want to delete this</h3>
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label formname="Name" class="control-label">Id: </label>
+                <label formname="Name" class="control-label" >@obj.Id</label>
+            </div>
+            <div class="form-group">
+                <label formname="Name" class="control-label">Name: </label>
+                <label formname="Name" class="control-label" >@obj.EmployeeName</label>
+            </div>
+              <div class="form-group">
+                <label formname="Name" class="control-label">Gender: </label>
+                <label formname="Name" class="control-label" >@obj.Gender</label>
+            </div>
+              <div class="form-group">
+                <label formname="Name" class="control-label">Designation: </label>
+                <label formname="Name" class="control-label" >@obj.Designation</label>
+            </div>
+              <div class="form-group">
+                <label formname="Name" class="control-label">City: </label>
+                <label formname="Name" class="control-label" >@obj.City</label>
+            </div>
+
+            <div class="form-group">
+                <select @bind="@obj.Gender" class="from-control">
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label formname="Designation" class="control-lavel">Designation</label>
+                <input formname="Designation" class="form-control" @bind="@obj.Designation">
+            </div>
+
+            <div class="form-group">
+                <label formname="City" class="control-lavel">City</label>
+                <input formname="City" class="form-control" @bind="@obj.City">
+            </div>
+
+        </div>
+    </div>
+</form>
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="from-group">
+            <input type="button" class="btn btn-primary" @onclick="UpdateEmployee" value="Update"/>
+            <input type="button" class="btn btn-primary" @onclick="Cancel" value="Cancel"/>
+        </div>
+    </div>
+</div>
 
 @code {
 
+    [Parameter]
+    public string Id {get; set;}
+
+    Employee obj=new Employee();
+
+    protected override void OnInitialized(){
+        obj=employeeService.GetEmployee(int.Parse(Id));
+    }
+
+    protected void UpdateEmployee(){
+        employeeService.UpdateEmployee(obj);
+        NavigationManager.NavigateTo("Employees");
+
+    }
+    protected void Cancel(){
+        NavigationManager.NavigateTo("Employees");
+    }
 }
+
+
