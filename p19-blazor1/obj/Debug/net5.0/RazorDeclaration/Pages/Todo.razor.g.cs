@@ -93,10 +93,10 @@ using p19_blazor1.Shared;
 #nullable restore
 #line 17 "c:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p19-blazor1\Pages\Todo.razor"
       
-    private list<TodoItem> todos = new();
+    private List<TodoItem> todos = new();
         private string newTodo;
         private void AddTodo(){
-            if (!string.IsNullOrWhite(newTodo)){
+            if (!String.IsNullOrWhite(newTodo)){
                 todos.Add(new TodoItem{Title=newTodo});
                 newTodo = string.Empty;
             }

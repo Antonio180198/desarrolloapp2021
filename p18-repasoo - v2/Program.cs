@@ -13,9 +13,9 @@ namespace p17_repasoo
 
             if (File.Exists(archj)){
                 //carga los datos del archivo que ya existe en disco: datos.xml
-               Console.WriteLine($"Cargando los daros del archivo de disco : {arch}");
+               //Console.WriteLine($"Cargando los daros del archivo de disco : {arch}");
                //Utils.LeerXml(arch, ref mired);
-               Utils.LeerJson(arch, ref mired);
+               //Utils.LeerJson(arch, ref mired);
             }
             else
 
@@ -23,7 +23,7 @@ namespace p17_repasoo
                 Console.WriteLine($"Inicializando datos desde el codigo ...");
                 Inicializa(ref mired);
                 //grabar los datos al disco en el archivo datos.xml
-                Utils.GrabarJson(arch, mired);
+                //Utils.GrabarJson(arch, mired);
             }
 
             Reporte(mired);            

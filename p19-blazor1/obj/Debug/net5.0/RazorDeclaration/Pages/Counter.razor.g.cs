@@ -95,7 +95,7 @@ using p19_blazor1.Shared;
 #line 10 "c:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\p19-blazor1\Pages\Counter.razor"
        
     private int currentCount = 0;
-[parameter]
+[Parameter]
     public int IncrementAmount{get;set;}=1;
     private void IncrementCount()
     {

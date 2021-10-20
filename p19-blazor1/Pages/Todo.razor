@@ -15,10 +15,10 @@
 <button @onclick ="AddTodo"> Agregar</button>
 
 @code{
-    private list<TodoItem> todos = new();
+    private List<TodoItem> todos = new();
         private string newTodo;
         private void AddTodo(){
-            if (!string.IsNullOrWhite(newTodo)){
+            if (!String.IsNullOrWhite(newTodo)){
                 todos.Add(new TodoItem{Title=newTodo});
                 newTodo = string.Empty;
             }
