@@ -12,6 +12,105 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
+        "HashCode": 1887444224,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.AsignacionCurso.AgregarAsignacionCurso",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AgregarAsignacionCurso"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.AsignacionCurso.AgregarAsignacionCurso"
+        }
+      },
+      {
+        "HashCode": 1459472766,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.AsignacionCurso.AgregarAsignacionCurso",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.AsignacionCurso.AgregarAsignacionCurso"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.AsignacionCurso.AgregarAsignacionCurso",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -880448560,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.AsignacionCurso.AsigancionCurso",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AsigancionCurso"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.AsignacionCurso.AsigancionCurso"
+        }
+      },
+      {
+        "HashCode": -2053406547,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.AsignacionCurso.AsigancionCurso",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.AsignacionCurso.AsigancionCurso"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.AsignacionCurso.AsigancionCurso",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 960514670,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.AsignacionCurso.EliminarAsignacionCursos",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EliminarAsignacionCursos"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.AsignacionCurso.EliminarAsignacionCursos"
+        }
+      },
+      {
+        "HashCode": 1189941155,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.AsignacionCurso.EliminarAsignacionCursos",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.AsignacionCurso.EliminarAsignacionCursos"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.AsignacionCurso.EliminarAsignacionCursos",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": 890004071,
         "Kind": "Components.Component",
         "Name": "p21_universidadv1.Pages.Counter",
@@ -627,6 +726,138 @@
         }
       },
       {
+        "HashCode": 1816117209,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.Inscripcion.AgregarInscripcion",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AgregarInscripcion"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.Inscripcion.AgregarInscripcion"
+        }
+      },
+      {
+        "HashCode": -182954146,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.Inscripcion.AgregarInscripcion",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.Inscripcion.AgregarInscripcion"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.Inscripcion.AgregarInscripcion",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1550890692,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.Inscripcion.EditarInscripcion",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditarInscripcion"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.Inscripcion.EditarInscripcion"
+        }
+      },
+      {
+        "HashCode": -1010351995,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.Inscripcion.EditarInscripcion",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.Inscripcion.EditarInscripcion"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.Inscripcion.EditarInscripcion",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -825239828,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.Inscripcion.EliminarInscripcion",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EliminarInscripcion"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.Inscripcion.EliminarInscripcion"
+        }
+      },
+      {
+        "HashCode": 486785716,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.Inscripcion.EliminarInscripcion",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.Inscripcion.EliminarInscripcion"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.Inscripcion.EliminarInscripcion",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 667888087,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.Inscripcion.Inscripciones",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Inscripciones"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.Inscripcion.Inscripciones"
+        }
+      },
+      {
+        "HashCode": -238001490,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.Inscripcion.Inscripciones",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.Inscripcion.Inscripciones"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.Inscripcion.Inscripciones",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -911011007,
         "Kind": "Components.Component",
         "Name": "p21_universidadv1.Pages.Instructor.AgregarInstructores",
@@ -795,6 +1026,138 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "p21_universidadv1.Pages.Instructor.Instructores",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1442482315,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.OficinaAsignada.AgregarOficinaAsignada",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "AgregarOficinaAsignada"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.OficinaAsignada.AgregarOficinaAsignada"
+        }
+      },
+      {
+        "HashCode": 288048367,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.OficinaAsignada.AgregarOficinaAsignada",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.OficinaAsignada.AgregarOficinaAsignada"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.OficinaAsignada.AgregarOficinaAsignada",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -955707157,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.OficinaAsignada.EditarOficinaAsignada",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EditarOficinaAsignada"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.OficinaAsignada.EditarOficinaAsignada"
+        }
+      },
+      {
+        "HashCode": 108039636,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.OficinaAsignada.EditarOficinaAsignada",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.OficinaAsignada.EditarOficinaAsignada"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.OficinaAsignada.EditarOficinaAsignada",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1188069364,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.OficinaAsignada.EliminarOficinaAsignada",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "EliminarOficinaAsignada"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.OficinaAsignada.EliminarOficinaAsignada"
+        }
+      },
+      {
+        "HashCode": -1560449744,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.OficinaAsignada.EliminarOficinaAsignada",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.OficinaAsignada.EliminarOficinaAsignada"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.OficinaAsignada.EliminarOficinaAsignada",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 28846927,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.OficinaAsignada.OficinaAsignada",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "OficinaAsignada"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.OficinaAsignada.OficinaAsignada"
+        }
+      },
+      {
+        "HashCode": -813583253,
+        "Kind": "Components.Component",
+        "Name": "p21_universidadv1.Pages.OficinaAsignada.OficinaAsignada",
+        "AssemblyName": "p21-universidadv1",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "p21_universidadv1.Pages.OficinaAsignada.OficinaAsignada"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "p21_universidadv1.Pages.OficinaAsignada.OficinaAsignada",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16631,8 +16994,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Inscripcion\\EditarInscripcion.razor",
+      "TargetPath": "Pages\\Inscripcion\\EditarInscripcion.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Estudiante\\EliminarEstudiantes.razor",
       "TargetPath": "Pages\\Estudiante\\EliminarEstudiantes.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Inscripcion\\Inscripciones.razor",
+      "TargetPath": "Pages\\Inscripcion\\Inscripciones.razor",
       "FileKind": "component"
     },
     {
@@ -16651,6 +17024,11 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\AsignacionCurso\\AsigancionCurso.razor",
+      "TargetPath": "Pages\\AsignacionCurso\\AsigancionCurso.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Curso\\EditarCursos.razor",
       "TargetPath": "Pages\\Curso\\EditarCursos.razor",
       "FileKind": "component"
@@ -16658,6 +17036,11 @@
     {
       "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Shared\\NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Inscripcion\\AgregarInscripcion.razor",
+      "TargetPath": "Pages\\Inscripcion\\AgregarInscripcion.razor",
       "FileKind": "component"
     },
     {
@@ -16671,8 +17054,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\OficinaAsignada\\EditarOficinaAsignada.razor",
+      "TargetPath": "Pages\\OficinaAsignada\\EditarOficinaAsignada.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\OficinaAsignada\\OficinaAsignada.razor",
+      "TargetPath": "Pages\\OficinaAsignada\\OficinaAsignada.razor",
       "FileKind": "component"
     },
     {
@@ -16686,8 +17079,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Inscripcion\\EliminarInscripcion.razor",
+      "TargetPath": "Pages\\Inscripcion\\EliminarInscripcion.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Curso\\EliminarCursos.razor",
       "TargetPath": "Pages\\Curso\\EliminarCursos.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\OficinaAsignada\\EliminarOficinaAsignada.razor",
+      "TargetPath": "Pages\\OficinaAsignada\\EliminarOficinaAsignada.razor",
       "FileKind": "component"
     },
     {
@@ -16716,8 +17119,18 @@
       "FileKind": "component"
     },
     {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\OficinaAsignada\\AgregarOficinaAsignada.razor",
+      "TargetPath": "Pages\\OficinaAsignada\\AgregarOficinaAsignada.razor",
+      "FileKind": "component"
+    },
+    {
       "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Estudiante\\Estudiantes.razor",
       "TargetPath": "Pages\\Estudiante\\Estudiantes.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\AsignacionCurso\\AgregarAsignacionCurso.razor",
+      "TargetPath": "Pages\\AsignacionCurso\\AgregarAsignacionCurso.razor",
       "FileKind": "component"
     },
     {
@@ -16729,6 +17142,11 @@
       "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\AsignacionCurso\\EliminarAsignacionCursos.razor",
+      "TargetPath": "Pages\\AsignacionCurso\\EliminarAsignacionCursos.razor",
+      "FileKind": "component"
     },
     {
       "FilePath": "c:\\Users\\joanb\\Documents\\ING\\9no\\desarrollo de aplicacaciones web\\programas\\p23-universidadv3\\Pages\\_Host.cshtml",
