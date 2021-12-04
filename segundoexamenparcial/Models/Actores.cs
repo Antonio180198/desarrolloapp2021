@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace segundoexamenparcial.Modelo
 {
@@ -14,6 +15,8 @@ namespace segundoexamenparcial.Modelo
         public string Nombre {get; set;}
         [RegularExpression(@"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$")]
         
+        public string Notas {get; set;}
+
         [Display(Name ="Nombre Completo")]
         public string NombreCompleto {
             get {
@@ -21,6 +24,6 @@ namespace segundoexamenparcial.Modelo
             }
         }
 
-        public RolesdeActoresenPeliculas RolesdeActoresenPeliculas {get; set;}
+        public ICollection<RolesdeActoresenPeliculas> RolesdeActoresenPeliculass {get; set;}
     }
 }

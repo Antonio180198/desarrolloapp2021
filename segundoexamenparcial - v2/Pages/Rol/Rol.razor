@@ -1,0 +1,58 @@
+@page "/CertificadosdePeliculas"
+@using segundoexamenparcial.Modelo;
+@using segundoexamenparcial.Servicios;
+@using segundoexamenparcial.Data;
+@inject ServicioRoles serv
+
+<h3>Informacion de los Generos</h3>
+
+<NavLink class="nav-link" href="AgregarGenero">
+    <span class="oi oi-plus">Agregar Nuevo</span>
+</NavLink>
+
+<label>Buscar por Titulo:</label>
+<input type="text" @oninput="@( (e) => Filtro(e) )">
+
+
+@if(obj is null) {
+    <p>Cargando ...</p>
+} else {
+    <table class="table">
+        <thead>
+            <th>Rol Id</th>
+            <th>Tipo</th>
+
+        </thead>
+    
+    <tbody>
+        @foreach (var i in obj)
+        {
+            <tr>
+                <td>@i.RolesId</td>
+                <td>@i.Tipo</td>
+                <td>
+                    <a class="nav-link" href="EditarActores/@i.RolesId">
+                        <span class="oi oi-pencil">Editar</span>
+                    </a>
+                     <a class="nav-link" href="EliminarActores/@i.RolesId">
+                        <span class="oi oi-pencil">Eliminar</span>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    </table>
+}
+
+@code {
+    List<Roles> obj;
+ 
+    protected override void OnInitialized() {
+        obj = serv.ObtenerTodo("");
+    }
+
+    protected void Filtro(ChangeEventArgs e) {
+        string cadenabuscar = e.Value.ToString();
+        obj = serv.ObtenerTodo(cadenabuscar);
+    }
+}

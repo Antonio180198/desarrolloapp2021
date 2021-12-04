@@ -1,0 +1,64 @@
+@page "/CertificadosdePeliculas"
+@using segundoexamenparcial.Modelo;
+@using segundoexamenparcial.Servicios;
+@using segundoexamenparcial.Data;
+@inject ServicioRolesdeActoresenPeliculas serv
+
+<h3>Informacion de los Roles de Actores en Peliculas</h3>
+
+<NavLink class="nav-link" href="AgregarRoles">
+    <span class="oi oi-plus">Agregar Nuevo</span>
+</NavLink>
+
+<label>Buscar por Titulo:</label>
+<input type="text" @oninput="@( (e) => Filtro(e) )">
+
+
+@if(obj is null) {
+    <p>Cargando ...</p>
+} else {
+    <table class="table">
+        <thead>
+            <th>PeliculaId Id</th>
+            <th>Autor Id</th>
+            <th>Rol Id</th>
+            <th>Personaje</th>
+            <th>Descripcion</th>
+
+        </thead>
+    
+    <tbody>
+        @foreach (var i in obj)
+        {
+            <tr>
+                <td>@i.PeliculaId</td>
+                <td>@i.AutorId</td>
+                <td>@i.RolId</td>
+                <td>@i.Personaje</td>
+                <td>@i.Descripcion</td>
+                <td>
+                    <a class="nav-link" href="EditarActores/@i.PeliculaId">
+                        <span class="oi oi-pencil">Editar</span>
+                    </a>
+                     <a class="nav-link" href="EliminarActores/@i.PeliculaId">
+                        <span class="oi oi-pencil">Eliminar</span>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    </table>
+}
+
+@code {
+    List<RolesdeActoresenPeliculas> obj;
+ 
+    protected override void OnInitialized() {
+        obj = serv.ObtenerTodo("");
+    }
+
+    protected void Filtro(ChangeEventArgs e) {
+        string cadenabuscar = e.Value.ToString();
+        obj = serv.ObtenerTodo(cadenabuscar);
+    }
+}

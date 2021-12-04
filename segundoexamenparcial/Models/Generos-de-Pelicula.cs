@@ -1,13 +1,15 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace segundoexamenparcial.Modelo
 {
     public class Generosdepeliculas{
-        //public int GenerosPId {get; set;}
-        public int GenerosPe {get; set;}
+        [Key]
+        public int GenerosId {get; set;}
+        public string Descripcion {get; set;}
 
-        public Peliculas Peliculass {get; set;}
+        public ICollection<Peliculas> Peliculass {get; set;}
     }
 
     

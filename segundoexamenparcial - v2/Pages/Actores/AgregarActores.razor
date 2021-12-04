@@ -1,0 +1,54 @@
+@page "/AgregarActores"
+@inject NavigationManager NavigationManager
+@using segundoexamenparcial.Modelo;
+@using segundoexamenparcial.Servicios;
+@inject ServicioActores serv;
+@inject ServicioRolesAP sins;
+
+<h3>Agregar Actor</h3> 
+
+ <div class="row">
+    <div class="col-md-8">
+    <EditForm Model="@obj" OnValidSubmit="@CrearActores">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+            <div class="form-group">
+                <label for="ActorId" class="control-label">Actor ID</label>
+                <InputNumber id="ActorId" class="form-control" @bind-Value="obj.ActorId"/>
+            </div>
+              <div class="form-group">
+                <label for="Nombre" class="control-label">Nombre</label>
+                <InputText id="Nombre" class="form-control" @bind-Value="obj.Nombre"/>
+            </div>
+            
+            <div class="form-group">
+                <label for="AutorId" class="control-label">RolesdeActoresenPeliculass </label>
+                <InputSelect id="AutorId" class="form-control" @bind-Value="obj.AutorId">
+                    @foreach (var i in @objins )
+                    {
+                        <option value="@i.AutorId">@i.PeliculaId</option>
+                    }
+                    
+                </InputSelect>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" >Guardar</button>
+            <button type="button" class="btn btn-primary" @onclick="@Cancelar" >Cancelar</button>
+    </EditForm> 
+    </div>
+ </div>
+ 
+@code {
+Actores obj = new Actores();
+    List<RolesdeActoresenPeliculas> objins;
+    protected void CrearActores() {
+        serv.Insertar(obj);
+        NavigationManager.NavigateTo("Actores");
+    }
+    protected void Cancelar() {
+       NavigationManager.NavigateTo("Actores");
+    }
+    protected override void OnInitialized() {
+         objins = sins.ObtenerTodo("");
+    }
+}

@@ -1,0 +1,59 @@
+@page "/Actores"
+@using segundoexamenparcial.Modelo;
+@using segundoexamenparcial.Servicios;
+@using segundoexamenparcial.Data;
+@inject ServicioActores serv
+
+<h3>Informacion de los Actores</h3>
+
+<NavLink class="nav-link" href="AgregarActores">
+    <span class="oi oi-plus">Agregar Nuevo</span>
+</NavLink>
+
+<label>Buscar por Titulo:</label>
+<input type="text" @oninput="@( (e) => Filtro(e) )">
+
+
+@if(obj is null) {
+    <p>Cargando ...</p>
+} else {
+    <table class="table">
+        <thead>
+            <th>Actor Id</th>
+            <th>Nombre</th>
+            <th>Notas</th>
+        </thead>
+    
+    <tbody>
+        @foreach (var i in obj)
+        {
+            <tr>
+                <td>@i.ActorId</td>
+                <td>@i.Nombre</td>
+                <td>@i.Notas</td>
+                <td>
+                    <a class="nav-link" href="EditarActores/@i.ActorId">
+                        <span class="oi oi-pencil">Editar</span>
+                    </a>
+                     <a class="nav-link" href="EliminarActores/@i.ActorId">
+                        <span class="oi oi-pencil">Eliminar</span>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    </table>
+}
+
+@code {
+    List<Actoress> obj;
+ 
+    protected override void OnInitialized() {
+        obj = serv.ObtenerTodo("");
+    }
+
+    protected void Filtro(ChangeEventArgs e) {
+        string cadenabuscar = e.Value.ToString();
+        obj = serv.ObtenerTodo(cadenabuscar);
+    }
+}

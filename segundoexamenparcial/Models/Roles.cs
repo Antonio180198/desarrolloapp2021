@@ -1,14 +1,15 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace segundoexamenparcial.Modelo
 {
     public class Roles {
-
+        [Key]
         public int RolesId {get; set;}
         public string Tipo {get; set;}
 
-        public RolesdeActoresenPeliculas RolesdeActoresenPeliculas {get; set;}
+        public ICollection<RolesdeActoresenPeliculas> RolesdeActoresenPeliculass {get; set;}
         
     }
 

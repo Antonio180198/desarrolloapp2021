@@ -1,0 +1,70 @@
+@page "/CertificadosdePeliculas"
+@using segundoexamenparcial.Modelo;
+@using segundoexamenparcial.Servicios;
+@using segundoexamenparcial.Data;
+@inject ServicioPeliculas serv
+
+<h3>Informacion de los Generos</h3>
+
+<NavLink class="nav-link" href="AgregarGenero">
+    <span class="oi oi-plus">Agregar Nuevo</span>
+</NavLink>
+
+<label>Buscar por Titulo:</label>
+<input type="text" @oninput="@( (e) => Filtro(e) )">
+
+
+@if(obj is null) {
+    <p>Cargando ...</p>
+} else {
+    <table class="table">
+        <thead>
+            <th>Titulo Id</th>
+            <th>Titulo</th>
+            <th>Historia</th>
+            <th>Fecha Realizada</th>
+            <th>Duracion</th>
+            <th>Genero Id</th>
+            <th>Certificado Id</th>
+            <th>Notas</th>
+
+        </thead>
+    
+    <tbody>
+        @foreach (var i in obj)
+        {
+            <tr>
+                <td>@i.TituloId</td>
+                <td>@i.titulo</td>
+                <td>@i.Historia</td>
+                <td>@i.FechaRealizada</td>
+                <td>@i.Duracion</td>
+                <td>@i.GeneroId</td>
+                <td>@i.CertificadoId</td>
+                <td>@i.Notas</td>
+                <td>
+                    <a class="nav-link" href="EditarActores/@i.TituloId">
+                        <span class="oi oi-pencil">Editar</span>
+                    </a>
+                     <a class="nav-link" href="EliminarActores/@i.TituloId">
+                        <span class="oi oi-pencil">Eliminar</span>
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+    </table>
+}
+
+@code {
+    List<Peliculas> obj;
+ 
+    protected override void OnInitialized() {
+        obj = serv.ObtenerTodo("");
+    }
+
+    protected void Filtro(ChangeEventArgs e) {
+        string cadenabuscar = e.Value.ToString();
+        obj = serv.ObtenerTodo(cadenabuscar);
+    }
+}
