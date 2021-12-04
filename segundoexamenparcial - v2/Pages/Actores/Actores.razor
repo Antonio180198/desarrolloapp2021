@@ -28,7 +28,7 @@
         @foreach (var i in obj)
         {
             <tr>
-                <td>@i.ActorId</td>
+                <td>@i.Actor</td>
                 <td>@i.Nombre</td>
                 <td>@i.Notas</td>
                 <td>
@@ -46,7 +46,7 @@
 }
 
 @code {
-    List<Actoress> obj;
+    List<Actores> obj;
  
     protected override void OnInitialized() {
         obj = serv.ObtenerTodo("");

@@ -82,6 +82,28 @@ using segundoexamenparcial.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "c:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\segundoexamenparcial - v2\Pages\Rol-Actor-Pelicula\RolAP.razor"
+using segundoexamenparcial.Modelo;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "c:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\segundoexamenparcial - v2\Pages\Rol-Actor-Pelicula\RolAP.razor"
+using segundoexamenparcial.Servicios;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "c:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\segundoexamenparcial - v2\Pages\Rol-Actor-Pelicula\RolAP.razor"
+using segundoexamenparcial.Data;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/CertificadosdePeliculas")]
     public partial class RolAP : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -89,6 +111,24 @@ using segundoexamenparcial.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 53 "c:\Users\joanb\Documents\ING\9no\desarrollo de aplicacaciones web\programas\segundoexamenparcial - v2\Pages\Rol-Actor-Pelicula\RolAP.razor"
+       
+    List<RolesdeActoresenPeliculas> obj;
+ 
+    protected override void OnInitialized() {
+        obj = serv.ObtenerTodo("");
+    }
+
+    protected void Filtro(ChangeEventArgs e) {
+        string cadenabuscar = e.Value.ToString();
+        obj = serv.ObtenerTodo(cadenabuscar);
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ServicioRolesdeActoresenPeliculas serv { get; set; }
     }
 }
 #pragma warning restore 1591
